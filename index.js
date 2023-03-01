@@ -14,3 +14,24 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+
+
+/* breaking down what the lab asks us to do:
+
+goes through line by line of array and returns the string - using .map()
+goes into returned string and runs function - the function looks for a space, when it finds a space, it turns the index+1 character into uppercase and proceeds to next character
+
+*/
+
+function characterChecker(){
+   for (int i = 0; i < str.length(); i++) {
+      if (str.charAt(i) === " "){
+        str.charAt(i+1).toUpperCase()
+      }
+  }
+}
+
+function titleCased(){
+  
+}
+
